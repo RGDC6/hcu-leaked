@@ -1,0 +1,87 @@
+<!--
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morpheus Duck Selection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="duck-wrapper">
+            <img src="paperella.png" alt="Morpheus Duck" class="main-duck">
+    <div class="container">
+        <div class="matrix-text">
+            <p>"Pillola <span class="blue-text">azzurra</span>, fine della storia: domani ti sveglierai in camera tua..."</p>
+            <p>Pillola <span class="red-text">rossa</span>, resti nel paese delle meraviglie..."</p>
+        </div>
+            
+            <div class="choices">
+                <div class="choice-item blue-glow">
+                    <a href="https://open.spotify.com/intl-it/album/1G78R0t23G6BgIFkAL1wfr"><img src="hcu-ufficiale.jpg" alt="Pillola Blu"></a>
+                </div>
+                <div class="choice-item red-glow">
+                    <a download="Hammon Cinematic Universe - Leaked Version.zip"><img src="hcu-leaked.jpg" alt="Pillola Rossa"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCU — Scegli la tua pillola</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <canvas id="matrix-canvas"></canvas>
+
+    <div class="scene">
+
+        <p class="quote">
+            "Pillola <span class="blu">azzurra</span>, fine della storia:<br>
+            domani ti sveglierai in camera tua, e crederai a quello che vorrai.<br>
+            Pillola <span class="ross">rossa</span>, resti nel paese delle meraviglie,<br>
+            e vedrai quant'è profonda la tana del bianconiglio."
+        </p>
+
+        <div class="duck-wrap">
+            <img src="paperella.png" alt="Morpheus Duck">
+        </div>
+
+        <div class="divider"></div>
+
+                <p class="tagline">P.S. Hammon non uccidermi pls <3 </p>
+
+        <div class="pills">
+            <a class="pill-card blue"
+               href="https://open.spotify.com/intl-it/album/1G78R0t23G6BgIFkAL1wfr"
+               target="_blank" rel="noopener">
+                <div class="frame">
+                    <img src="hcu-ufficiale.jpg" alt="HCU Ufficiale">
+                </div>
+                <span class="label">Pillola blu</span>
+            </a>
+
+            <a class="pill-card red"
+               href="./Hammon Cinematic Universe - Leaked Version.zip"
+               download="Hammon Cinematic Universe - Leaked Version.zip">
+                <div class="frame">
+                    <img src="hcu-leaked.jpg" alt="HCU Leaked">
+                </div>
+                <span class="label">Pillola rossa</span>
+            </a>
+        </div>
+
+        <p class="tagline">Hammon Cinematic Universe — scegli la tua realtà</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
